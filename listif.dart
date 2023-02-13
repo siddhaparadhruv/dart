@@ -35,7 +35,6 @@ void main()
 		value=stdin.readLineSync();
 		lst[int.parse(pos)]=int.parse(value);
 		print(lst);
-		
 	 }
 	 else if(int.parse(z)==4)
 	 {

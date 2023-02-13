@@ -2,19 +2,19 @@ import 'dart:io';
 
 void main()
 {
-	 for(int i = 0 ; i< 4 ; i++)
+	 for(int j = 0 ; j< 4; j++)
     {
-			if(i%5==0)
+		if(j%5==0)
 			{
-			stdout.writeln(i);
+			stdout.writeln(j);
 			}
 			else
 			{
-			stdout.write(i);
+			stdout.write(j);
 			}
-        for(int j = 0; j<=7;j++)
+        for(int i = 0; i<=4;i++)
         {
-			if(j==1 || j==3)
+			if(i==1 || i==3)
 			{
 				stdout.write("0");
 			}

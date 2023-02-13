@@ -1,5 +1,4 @@
 import 'dart:io';
-
 void main()
 {
 	var a={1,2,3,4,5,6,7,8,9,10,"bhavdeep","raj","viken","dhruv"};
@@ -14,5 +13,5 @@ void main()
 	print(a);
 	//print(a.forEach(4));//variable_name.forEach(...);
 	a.clear();//variable_name.clear();
-	print(a);
+	print(a); 
 }	

@@ -22,4 +22,5 @@ void main()
 {
 	var d=alfa(2,5,6);
 	d.display();
+	
 }

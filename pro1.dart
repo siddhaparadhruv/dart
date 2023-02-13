@@ -1,0 +1,104 @@
+import 'dart:io';
+
+class emp
+{
+	String? name;
+	int id=0;
+	int sal=0;
+	void setData(var name,int id,int sal)
+	{
+		this.name=name;
+		this.id=id;
+		this.sal=sal;
+	
+	}
+	
+}
+void main()
+	{
+	var lst=[];
+	while(true)
+	{
+	print("-------------");
+	print("| 1.insert  |");
+	print("| 2.delete  |");
+	print("| 3.update  |");
+	print("| 4.display |");
+	print("| 0.exit    |");
+	print("-------------");
+	print("\n");
+	print("---------------------");
+	print("| enter your choice |");
+	print("---------------------");
+	var z=int.parse(stdin.readLineSync()!);
+	if(z==1)
+	{
+		var a=emp();
+		print("-------------------");
+		print("| enter your name |");
+		print("-------------------");
+		var name =stdin.readLineSync();
+		a.setData(name,2,30);
+		lst.add(a);
+		print(lst);
+		print(" -------------------------");
+		print("| name added successfully |");
+		print(" -------------------------");
+	}
+	else if(z==2)
+	{
+		var a=emp();
+		print("--------------------");
+		print("| enter for delete |");
+		print("--------------------");
+		var name =stdin.readLineSync();
+		a.setData(name,2,30);
+		lst.remove(a);
+		print(lst);
+		print(" -------------------------");
+		print("| name removed successfully |");
+		print(" -------------------------");
+	}	
+	else if(z==3)
+	{
+		var a=emp();
+		var pos,value;
+		print("------------------");
+		print("| enter your pos |");
+		print("------------------");
+		pos=stdin.readLineSync();
+		print("--------------------");
+		print("| enter your value |");
+		print("--------------------");
+		value=stdin.readLineSync();
+		lst[int.parse(pos)]=value;
+		print(lst);	
+	}
+	else if(z==4)
+	{
+		print(lst);
+	
+	}
+	else if(z==0)
+	{
+		break;
+	}
+	else 
+	{
+		print("default");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+	
+	
+	}

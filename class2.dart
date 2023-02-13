@@ -10,7 +10,7 @@ void main()
 	student1.sleep();
 	
 	var student2 = student(); 
-	print("${student2.id} and ${student2.name}");
+	prin  t("${student2.id} and ${student2.name}");
 	student2.id=22;
 	student2.name='dhruv';
 	student2.study();

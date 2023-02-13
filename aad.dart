@@ -2,7 +2,7 @@ void main()
 {
 	try {
 		String v='dhruv';
-		print("value=${v[10]}");
+		print("value=${v[1]}");
 	}
 	catch(abc)
 	{
