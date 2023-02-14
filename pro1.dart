@@ -51,9 +51,8 @@ void main()
 		print("--------------------");
 		print("| enter for delete |");
 		print("--------------------");
-		var name =stdin.readLineSync();
-		a.setData(name,2,30);
-		lst.remove(a);
+		var index=(stdin.readLineSync()!);
+		lst.remove(index);
 		print(lst);
 		print(" -------------------------");
 		print("| name removed successfully |");
@@ -62,25 +61,26 @@ void main()
 	else if(z==3)
 	{
 		var a=emp();
-		var pos,value;
-		print("------------------");
-		print("| enter your pos |");
-		print("------------------");
-		pos=stdin.readLineSync();
+		print("Enter the Index value of the Emp ");
+		var index=int.parse(stdin.readLineSync()!);
 		print("--------------------");
 		print("| enter your value |");
 		print("--------------------");
-		value=stdin.readLineSync();
-		lst[int.parse(pos)]=value;
+		var value=(stdin.readLineSync()!);
+		lst[index].name=value;
 		print(lst);	
 	}
 	else if(z==4)
 	{
-		print(lst);
+		for(int i=0;i<lst.length;i++)
+		{
+			print(lst[i].name);
+		}
 	
 	}
 	else if(z==0)
 	{
+		print("!!!   THANK YOU FOR WATCHING   !!!");
 		break;
 	}
 	else 
