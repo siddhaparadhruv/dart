@@ -17,9 +17,9 @@ class por
 	}
 	void insert(por tmp)
 	{
-		this.a=this.a+tmp.a;
-		this.b=this.b+tmp.b;
-		this.c=this.c+tmp.c;
+		this.a=this.a+tmp.a;			|
+		this.b=this.b+tmp.b;			|||//add in function.
+		this.c=this.c+tmp.c;			|
 	}
 }
 void main()

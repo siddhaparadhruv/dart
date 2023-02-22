@@ -51,7 +51,7 @@ void main()
 		print("--------------------");
 		print("| enter for delete |");
 		print("--------------------");
-		var index=(stdin.readLineSync()!);
+		var index=(stdin.readLineSync());
 		lst.remove(index);
 		print(lst);
 		print(" -------------------------");
@@ -88,16 +88,7 @@ void main()
 		print("default");
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	}
 	
 	

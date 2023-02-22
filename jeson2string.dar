@@ -1,0 +1,26 @@
+import 'dart:convert';
+
+class emp
+{
+	String? name;
+	int? age;
+	int? sal;
+	
+	map2obj(map<String,Dynamic> data)
+	{
+		this.name=map[name];
+		this.age=map[age];
+		this.sal=map[sal];
+	}	
+}
+
+void main()
+{
+	var jeson='[{'name':'dhruv','age':20,'sal':10000},{'name':'viken','age':20,'sal':10000}]';
+	
+	var x=jesonEncode(jeson);
+	print(x);
+	print(x.runtimeType);
+	
+	
+}

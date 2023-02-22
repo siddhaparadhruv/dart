@@ -9,8 +9,7 @@ class alfa
 }
 void main()
 {
-	var t=alfa.dh
-	();
+	var t=alfa.dh();
 	
 }
 // chang
