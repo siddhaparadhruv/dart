@@ -1,4 +1,4 @@
-import 'dart:convert';
+import 'dart:convert';  //use this laibrery to do json.
 
 class Employee
 {
@@ -21,7 +21,7 @@ class Employee
 void main()
 {
 	var json = '{"name":"kishan","age":23,"sal":200000.0}';
-		
+
 	var x = jsonDecode(json); // convert json to map using jsonDecode method
 	//print(x.runtimeType);
 	

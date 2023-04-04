@@ -21,7 +21,7 @@ class cat extends animal
 	}
 	
 }
-class dog extends cat
+class dog extends cat  //calling..2se class
 {
 	void home()
 	{

@@ -12,7 +12,6 @@ class animal
 class cat extends animal
 {
 	void eat()
-	
 	{
 		print("the cat is eating");
 	}

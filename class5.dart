@@ -3,8 +3,6 @@ class dhruv
 	int h=0;
 	int m=0;
 	int s=0;
-	var d1;
-	var d2;
 	
 	void data(int h,int m,int s)
 	{
